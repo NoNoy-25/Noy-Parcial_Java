@@ -9,7 +9,11 @@ public class Guerrero extends Personaje {
         this.fuerza = fuerza;
     }
 
-    // Getter y Setter específico
+    @Override
+    public void habilidadEspecial() {
+        System.out.println("[HABILIDAD] El Guerrero " + getNombre() + " usa ¡Furia de Batalla! Aumenta su fuerza a " + this.fuerza + " puntos.");
+    }
+    
     public int getFuerza() {
         return fuerza;
     }

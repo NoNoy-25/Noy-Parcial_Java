@@ -1,19 +1,22 @@
 package com.mycompany.java_nonoy;
 
 public class Personaje {
-    // Atributos encapsulados (private)
+    
     private String nombre;
     private int nivel;
     private int puntosVida;
 
-    // Constructor
+    
     public Personaje(String nombre, int nivel, int puntosVida) {
         this.nombre = nombre;
         this.nivel = nivel;
         this.puntosVida = puntosVida;
     }
 
-    // Getters y Setters
+    public void habilidadEspecial() {
+    System.out.println(nombre + " usa una habilidad genérica.");
+    }
+    
     public String getNombre() {
         return nombre;
     }

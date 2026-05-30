@@ -8,6 +8,11 @@ public class Arquero extends Personaje {
         this.destreza = destreza;
     }
 
+    @Override
+    public void habilidadEspecial() {
+        System.out.println("[HABILIDAD] El Arquero " + getNombre() + " ejecuta ¡Disparo Certero! Precisión basada en " + this.destreza + " de destreza.");
+    }
+    
     public int getDestreza() {
         return destreza;
     }

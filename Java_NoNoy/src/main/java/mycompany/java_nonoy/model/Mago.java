@@ -8,6 +8,11 @@ public class Mago extends Personaje {
         this.mana = mana;
     }
 
+    @Override
+    public void habilidadEspecial() {
+        System.out.println("[HABILIDAD] El Mago " + getNombre() + " lanza ¡Bola de Fuego! Consume " + this.mana + " de maná.");
+    }
+    
     public int getMana() {
         return mana;
     }
