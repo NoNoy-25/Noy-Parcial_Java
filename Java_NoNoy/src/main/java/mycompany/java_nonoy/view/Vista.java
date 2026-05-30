@@ -21,7 +21,7 @@ public class Vista {
         System.out.println("6. Ejecutar Habilidad Especial");
         System.out.println("7. Salir del programa");
         System.out.println("-----------------------------------");
-        System.out.print("Seleccione una opción (1-7): ");
+        System.out.print("Seleccione una opcion (1-7): ");
         
         try {
             return Integer.parseInt(scanner.nextLine());
@@ -41,7 +41,7 @@ public class Vista {
             try {
                 return Integer.parseInt(scanner.nextLine());
             } catch (NumberFormatException e) {
-                System.out.println("[ERROR] Por favor, ingrese un número entero válido.");
+                System.out.println("[ERROR] Ingrese un numero entero valido.");
             }
         }
     }
