@@ -5,12 +5,11 @@ import com.mycompany.java_nonoy.view.Vista;
 
 public class Java_NoNoy {
     public static void main(String[] args) {
- 
+
         Vista vista = new Vista();
         
-
         Control controlador = new Control(vista);
-       
+        
         controlador.iniciar();
     }
 }
