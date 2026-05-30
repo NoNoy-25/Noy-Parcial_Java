@@ -1,16 +1,16 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- */
-
 package com.mycompany.java_nonoy;
 
-/**
- *
- * @author andre
- */
-public class Java_NoNoy {
+import com.mycompany.java_nonoy.controller.Control;
+import com.mycompany.java_nonoy.view.Vista;
 
+public class Java_NoNoy {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+ 
+        Vista vista = new Vista();
+        
+
+        Control controlador = new Control(vista);
+       
+        controlador.iniciar();
     }
 }
